@@ -1,0 +1,49 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<section id="contact us">
+<section class="cta">
+<h1>TO KNOW MORE ABOUT US CLICK HERE</h1>
+<div class="banner-btn">
+           	<a href="file:///C:/Users/HP/Desktop/MINI%20PROJECT/form.html"><i><span></span>CONTACT US</a></i>     
+           </div>
+</section>
+
+			<div id="sideNav">
+	<nav>
+		<ul>
+	<li><a href="home.html">HOME</a></li>
+	<li><a href="loginpage.html">LOG IN</a></li>
+    <li><a href="aboutus.html">ABOUT US</a></li>
+	<li><a href="facillities.html">FACILITIES</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+
+</ul>
+</nav>
+  </div>
+  <div id="menuBtn">
+  	<img src="https://icon-library.com/images/white-menu-icon/white-menu-icon-0.jpg" id="menu"></div>
+  	<script>
+  		var menuBtn = document.getElementById("menuBtn")
+  		var sideNav = document.getElementById("sideNav")
+  		var menu = document.getElementById("menu")
+  		sideNav.style.right = "-250px";
+  		menuBtn.onclick = function() {
+  			if(sideNav.style.right == "-250px"){
+  				sideNav.style.right = "0";
+  				menu.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Grey_close_x.svg/768px-Grey_close_x.svg.png?20140617032513";
+  			}
+  		else{
+  			sideNav.style.right = "-250px";
+  			menu.src="https://icon-library.com/images/white-menu-icon/white-menu-icon-0.jpg";
+  		}
+  	}
+	var scroll = new SmoothScroll('a[href*="#"]',{
+		speed:1000,
+		speedAsDuration:true
+	});
+  	</script>
+
+  	</html>
